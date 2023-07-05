@@ -139,8 +139,7 @@
     .first-img {
         position: absolute;
         left: 0;
-        top: 0;
-        
+        top: 0; 
     }
 
     .first-img:hover {
@@ -161,7 +160,6 @@
         font-weight: bold;
         text-align: center;
         height: 16px;
-
     }
 
     .etichetta.sconto {
@@ -203,3 +201,45 @@
     }
 
 /* #endregion main */
+
+
+/* #eregion footer */
+
+    footer .row {
+        justify-content: space-between;
+        align-items: center;
+        padding: 40px 0;
+        color: var(--txt-primary);
+    }
+
+    .f-col {
+        width: calc(100% / 12 * 6);
+    }
+
+    .f-col a {
+        color: var(--txt-primary);
+        font-size: 10px;
+        text-decoration: none;
+        margin-right: 5px;
+    }
+
+    .f-col a:hover {
+    text-decoration: underline;
+    }
+
+    .f-col.right {
+        justify-content: flex-end;
+    }
+
+    .f-col h4 {
+        font-size: 14px;
+    }
+
+    .f-col h5 {
+        font-size: 12px;
+    }
+
+
+
+
+/* #endregion footer */
