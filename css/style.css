@@ -89,7 +89,7 @@
         color: var(--txt-primary);
         text-decoration: none;
         margin: 0 6px;
-        font-size: 16px;
+        font-size: 14px;
     }
 
     .h-col a:hover {
@@ -115,19 +115,31 @@
 
     .m-col {
         width: calc(100% / 12 * 3.6);
+        font-size: 14px;
     }
 
-    .figure-left {
+    .figure {
         position: relative;
     }
 
     .m-col img {
         width: 100%;
         max-width: 400px;
+    }
+
+    .m-col img:hover {
         
     }
 
-    .card {
+    .container-etichette {
+        flex-direction: row;
+        align-items: center;
+        position: absolute;
+        bottom: 20px;
+        left: 0;
+    } 
+
+    .etichetta {
         color: var(--txt-primary);
         font-size: 12px;
         font-weight: bold;
@@ -136,22 +148,42 @@
 
     }
 
-    .card.sconto {
+    .etichetta.sconto {
         background-color: var(--bg3);
         width: 30px;
-        position: absolute;
-        bottom: 20px;
-        left: 0;
-
+        margin-right: 10px;
     }
 
-    .card.sost {
+    .etichetta.sost {
         background-color: var(--bg4);
         width: 80px;
-        position: absolute;
-        bottom: 20px;
-        left: 50px;
+    }
 
+    .heart {
+        padding: 5px;
+        background-color: var(--txt-primary);
+        position: absolute;
+        top: 10px;
+        right: 0;
+    }
+
+    .heart:hover {
+        color: red;
+    }
+
+    .title {
+        font-size: 16px;
+        font-weight: bold;
+    }
+
+    .price-new {
+        color: red;
+        font-weight: bold;
+        margin-right: 3px;
+    }
+
+    .price-new {
+        text-decoration: line-through;
     }
 
 /* #endregion main */
