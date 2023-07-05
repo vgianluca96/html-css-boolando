@@ -119,6 +119,7 @@
     main .row {
         justify-content: space-between;
         align-items: center;
+        padding: 20px 0;
     }
 
     .m-col {
@@ -165,7 +166,7 @@
 
     .etichetta.sconto {
         background-color: var(--bg3);
-        width: 30px;
+        width: 40px;
         margin-right: 10px;
     }
 
@@ -197,7 +198,7 @@
         margin-right: 3px;
     }
 
-    .price-new {
+    .price-old {
         text-decoration: line-through;
     }
 
