@@ -132,11 +132,18 @@
 
     .m-col img {
         width: 100%;
-        max-width: 400px;
+        max-width: 400px;   
+    }
+    
+    .first-img {
+        position: absolute;
+        left: 0;
+        top: 0;
+        
     }
 
-    .m-col img:hover {
-        
+    .first-img:hover {
+        display: none;
     }
 
     .container-etichette {
