@@ -94,7 +94,7 @@
         text-decoration: underline;
     }
     
-    .h-col .img {
+    .h-col img {
         height: 30px;
     }
 
@@ -112,15 +112,12 @@
     }
 
     .m-col {
-        width: calc(100% / 12 * 4);
+        width: calc(100% / 12 * 3.6);
     }
 
     .m-col img {
-        width: 80%;
+        width: 100%;
         max-width: 400px;
     }
-
-
-
 
 /* #endregion main */
