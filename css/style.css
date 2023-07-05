@@ -1,5 +1,46 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
+
+/* #region Common */
+
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    .container {
+        width: 80%;
+        max-width: 1170px;
+        margin: auto;
+    }
+
+    :root {
+        --bg1: #ff6900;
+        --bg2: #1a1a1a;
+    }
+
+    header {
+        background-color: var(--bg1);
+    }
+
+    footer {
+        background-color: var(--bg2);
+    }
+
+/* #endregion Common */
+
+
+/* #region Debug */
+
+    .debug1 {
+        height: 100px;
+        background-color: lightgreen;
+        border: 1px dashed black;
+    }
+
+    .debug2 {
+        height: 200px;
+        border: 1px dashed red;
+    }
+
+/* #endregion Debug */
+
