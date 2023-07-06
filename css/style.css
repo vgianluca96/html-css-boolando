@@ -202,7 +202,6 @@
 
 /* #endregion main */
 
-
 /* #eregion footer */
 
     footer .row {
@@ -210,10 +209,15 @@
         align-items: center;
         padding: 25px 0;
         color: var(--txt-primary);
+        font-size: 14px;
     }
 
     .f-col {
         width: calc(100% / 12 * 6);
+    }
+
+    .f-col div {
+        align-items: center;
     }
 
     .f-col a {
@@ -231,15 +235,12 @@
         justify-content: flex-end;
     }
 
-    .f-col h4 {
-        font-size: 14px;
-    }
-
     .f-col h5 {
         font-size: 12px;
     }
 
-
-
+    .f-col i {
+        margin-right: 5px;
+    }
 
 /* #endregion footer */
